@@ -1,5 +1,5 @@
 # -*- encoding: utf-8 -*-
-require File.expand_path('../lib/WrapUp/version', __FILE__)
+require File.expand_path('../lib/wrapup/version', __FILE__)
 
 Gem::Specification.new do |gem|
   gem.authors       = ["Jon Rowe"]
@@ -14,4 +14,6 @@ Gem::Specification.new do |gem|
   gem.name          = "wrapup"
   gem.require_paths = ["lib"]
   gem.version       = WrapUp::VERSION
+
+  gem.add_development_dependency 'rspec'
 end
