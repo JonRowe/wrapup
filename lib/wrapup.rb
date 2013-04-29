@@ -1,5 +1,5 @@
 require "wrapup/version"
+require "wrapup/wrap"
 
 module WrapUp
-  # Your code goes here...
 end
