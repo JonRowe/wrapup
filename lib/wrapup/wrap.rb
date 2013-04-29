@@ -16,5 +16,9 @@ module WrapUp
     def size
       @collection.size
     end
+
+    def [] key
+      @wrapper.new @collection[key]
+    end
   end
 end

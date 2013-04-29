@@ -20,6 +20,13 @@ module WrapUp
       end
     end
 
+    describe '#[]' do
+      it 'allows access to an individual via a wrapper' do
+        expect( wrap[1] ).to be_a WrapperClass
+        expect( wrap[1].original ).to eq item_2
+      end
+    end
+
     describe '#size' do
       it 'measure the internal collection size' do
         expect( wrap.size ).to eq 2
