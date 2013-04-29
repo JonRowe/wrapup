@@ -12,5 +12,9 @@ module WrapUp
         block.call @wrapper.new item
       end
     end
+
+    def size
+      @collection.size
+    end
   end
 end

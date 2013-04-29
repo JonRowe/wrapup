@@ -20,6 +20,12 @@ module WrapUp
       end
     end
 
+    describe '#size' do
+      it 'measure the internal collection size' do
+        expect( wrap.size ).to eq 2
+      end
+    end
+
     describe "#each" do
       let(:output) { [] }
 
