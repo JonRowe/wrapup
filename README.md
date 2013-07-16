@@ -1,5 +1,5 @@
-[![Build Status](https://secure.travis-ci.org/JonRowe/wrapup.png)](http://travis-ci.org/JonRowe/wrapup)
 # WrapUp
+[![Build Status](https://secure.travis-ci.org/JonRowe/wrapup.png)](http://travis-ci.org/JonRowe/wrapup) [![Code Climate](https://codeclimate.com/github/JonRowe/wrapup.png)](https://codeclimate.com/github/JonRowe/wrapup)
 
 Simple wrapper gem. Found myself writing this in too many projects.
 
