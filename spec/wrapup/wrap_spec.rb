@@ -16,7 +16,7 @@ module WrapUp
 
     describe "enumerability" do
       it " has the standard enumerability module in its ancestors" do
-        described_class.ancestors.should include Enumerable
+        expect(described_class.ancestors).to include Enumerable
       end
     end
 
