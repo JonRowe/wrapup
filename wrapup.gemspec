@@ -15,6 +15,10 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
   gem.version       = WrapUp::VERSION
 
-  gem.add_development_dependency 'rake'
+  if RUBY_VERSION.to_s >= '1.9.3'
+    gem.add_development_dependency 'rake', '~> 11.0'
+  else
+    gem.add_development_dependency 'rake', '~> 10.0'
+  end
   gem.add_development_dependency 'rspec'
 end
