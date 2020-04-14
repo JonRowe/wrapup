@@ -17,7 +17,7 @@ Gem::Specification.new do |gem|
 
   if RUBY_VERSION.to_f < 2
     gem.add_development_dependency "rake", '~> 10.0'
-  elsif
+  else
     gem.add_development_dependency "rake", '~> 12.3.3'
   end
   gem.add_development_dependency 'rspec'
